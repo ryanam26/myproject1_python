@@ -1,19 +1,11 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
 from django.contrib.auth.models import User
-
-from django.contrib.auth.forms import UserCreationForm
-
 from django.core.urlresolvers import reverse
-
 from django.urls import resolve
-
 from django.test import TestCase
 
-from .views import signup
-
-from .forms import SignUpForm
+from ..views import signup
+from ..forms import SignUpForm
 
 
 # Create your tests here.
